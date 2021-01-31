@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pandas = "*"
+scikit-learn = "*"
+matplotlib = "*"
+seaborn = "*"
+geopandas = "*"
+statsmodels = "*"
+xgboost = "*"
+ipython = "*"
+ipykernel = "*"
+descartes = "*"
+tikzplotlib = "*"
+jinja2 = "*"
+
+[requires]
+python_version = "3.8"

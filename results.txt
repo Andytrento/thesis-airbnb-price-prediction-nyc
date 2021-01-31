@@ -1,0 +1,258 @@
+--------- For Model:  OLS Model  ---------
+
+-----Training Set ------
+Mean squared error:  0.12911646601592142
+R2:  0.7018821438853073
+
+
+-----Test Set ------
+Mean squared error:  5.8905527389211926e+23
+R2:  -1.3417669815031038e+24
+
+
+Value of lambda  115.5064850041579
+--------- For Model:  Ridge Model  ---------
+
+-----Training Set ------
+Mean squared error:  0.12912754811949106
+R2:  0.7018565563436143
+
+
+-----Test Set ------
+Mean squared error:  0.13799160783882852
+R2:  0.6856787616902413
+
+
+Value of lasso tuning parameter 0.005
+--------- For Model:  Lasso Model  ---------
+
+-----Training Set ------
+Mean squared error:  0.13514156863045645
+R2:  0.6879707449000321
+
+
+-----Test Set ------
+Mean squared error:  0.1440722627110333
+R2:  0.6718280717888815
+
+
+
+
+--- Feature Selection -----
+Lasso picked 153 variables and eliminated the other 125 variables
+	room_type_Entire home/apt, 0.219
+	accommodates, 0.214
+	neighbourhood_Hell's Kitchen, 0.092
+	neighbourhood_Midtown, 0.087
+	neighbourhood_East Village, 0.083
+	neighbourhood_Chelsea, 0.077
+	neighbourhood_West Village, 0.074
+	neighbourhood_Upper West Side, 0.070
+	neighbourhood_Williamsburg, 0.066
+	neighbourhood_Upper East Side, 0.066
+	neighbourhood_SoHo, 0.057
+	neighbourhood_Lower East Side, 0.056
+	availability_90, 0.055
+	room_type_Shared room, -0.049
+	neighbourhood_Greenwich Village, 0.049
+	white_goods, 0.043
+	minimum_nights, -0.041
+	neighbourhood_Nolita, 0.039
+	neighbourhood_Murray Hill, 0.039
+	neighbourhood_Financial District, 0.038
+	neighbourhood_Chinatown, 0.035
+	neighbourhood_Gramercy, 0.035
+	neighbourhood_Tribeca, 0.035
+	bathrooms, 0.035
+	neighbourhood_Theater District, 0.032
+	number_of_reviews, -0.032
+	review_scores_rating_95-100/100, 0.030
+	neighbourhood_Greenpoint, 0.029
+	neighbourhood_Kips Bay, 0.029
+	elevator, 0.028
+	neighbourhood_East Harlem, 0.023
+	tv, 0.023
+	neighbourhood_Fort Greene, 0.023
+	neighbourhood_Harlem, 0.022
+	room_type_Hotel room, 0.021
+	host_listings_count, -0.021
+	property_type_Other, 0.020
+	neighbourhood_Park Slope, 0.020
+	neighbourhood_NoHo, 0.020
+	security_deposit, 0.019
+	neighbourhood_Brooklyn Heights, 0.019
+	time_since_first_review_4+ years, 0.017
+	neighbourhood_Flatiron District, 0.017
+	neighbourhood_Clinton Hill, 0.017
+	extra_people, -0.017
+	neighbourhood_Little Italy, 0.016
+	neighbourhood_Carroll Gardens, 0.016
+	air_conditioning, 0.016
+	neighbourhood_Bushwick, -0.015
+	neighbourhood_Boerum Hill, 0.014
+	neighbourhood_East New York, -0.013
+	host_days_active, 0.013
+	time_since_last_review_0-2 weeks, -0.013
+	neighbourhood_Prospect Heights, 0.013
+	neighbourhood_Long Island City, 0.013
+	neighbourhood_Jamaica, -0.013
+	neighbourhood_Cobble Hill, 0.012
+	neighbourhood_Gowanus, 0.012
+	host_response_rate_90-99%, -0.011
+	neighbourhood_Two Bridges, 0.010
+	neighbourhood_South Slope, 0.010
+	neighbourhood_Flatbush, -0.010
+	host_response_time_unknown, -0.010
+	cleaning_fee, 0.009
+	neighbourhood_East Flatbush, -0.007
+	neighbourhood_Flushing, -0.007
+	neighbourhood_Borough Park, -0.007
+	neighbourhood_East Elmhurst, -0.007
+	host_is_superhost, 0.007
+	neighbourhood_Stuyvesant Town, 0.007
+	child_friendly, 0.007
+	host_response_rate_100%, 0.006
+	review_scores_rating_0-79/100, -0.006
+	neighbourhood_Tompkinsville, -0.006
+	neighbourhood_Canarsie, -0.006
+	neighbourhood_Morningside Heights, 0.006
+	neighbourhood_Rego Park, -0.006
+	neighbourhood_Woodhaven, -0.006
+	neighbourhood_Elmhurst, -0.005
+	neighbourhood_Bedford-Stuyvesant, -0.005
+	neighbourhood_Ridgewood, -0.005
+	neighbourhood_Battery Park City, 0.005
+	neighbourhood_Washington Heights, -0.005
+	neighbourhood_Gravesend, -0.005
+	neighbourhood_Mount Hope, -0.005
+	neighbourhood_Downtown Brooklyn, 0.005
+	parking, -0.005
+	neighbourhood_DUMBO, 0.005
+	neighbourhood_Bull's Head, -0.005
+	neighbourhood_Brownsville, -0.005
+	neighbourhood_Woodlawn, -0.005
+	neighbourhood_Civic Center, 0.004
+	neighbourhood_Queens Village, -0.004
+	neighbourhood_Midwood, -0.004
+	neighbourhood_Cypress Hills, -0.004
+	neighbourhood_Glendale, -0.004
+	neighbourhood_Sheepshead Bay, -0.004
+	neighbourhood_Jackson Heights, -0.004
+	neighbourhood_Sunset Park, -0.004
+	neighbourhood_St. Albans, -0.004
+	neighbourhood_Bronxdale, -0.004
+	neighbourhood_Rosedale, -0.003
+	neighbourhood_Flatlands, -0.003
+	neighbourhood_Inwood, -0.003
+	neighbourhood_Clason Point, -0.003
+	neighbourhood_Vinegar Hill, 0.003
+	neighbourhood_Prospect-Lefferts Gardens, -0.003
+	cancellation_policy_strict_14_with_grace_period, 0.003
+	neighbourhood_Corona, -0.003
+	neighbourhood_Bensonhurst, -0.003
+	neighbourhood_Pelham Gardens, -0.003
+	neighbourhood_Concourse, -0.003
+	neighbourhood_Maspeth, -0.003
+	neighbourhood_Mott Haven, -0.002
+	neighbourhood_Bay Ridge, -0.002
+	neighbourhood_Breezy Point, 0.002
+	neighbourhood_South Ozone Park, -0.002
+	neighbourhood_Soundview, -0.002
+	neighbourhood_Randall Manor, -0.002
+	neighbourhood_Astoria, 0.002
+	neighbourhood_Fort Hamilton, -0.002
+	neighbourhood_Woodside, -0.002
+	neighbourhood_Van Nest, -0.002
+	neighbourhood_Grant City, -0.002
+	neighbourhood_Clifton, -0.001
+	neighbourhood_Graniteville, -0.001
+	neighbourhood_Ozone Park, -0.001
+	neighbourhood_Navy Yard, 0.001
+	neighbourhood_North Riverdale, -0.001
+	time_since_last_review_6-12 months, 0.001
+	time_since_last_review_2-6 months, 0.001
+	neighbourhood_Stapleton, -0.001
+	neighbourhood_Highbridge, -0.001
+	neighbourhood_Westerleigh, -0.001
+	neighbourhood_Brighton Beach, -0.001
+	neighbourhood_Rossville, -0.001
+	neighbourhood_Arden Heights, -0.001
+	neighbourhood_Hollis, -0.001
+	neighbourhood_Allerton, -0.001
+	neighbourhood_St. George, -0.001
+	neighbourhood_Mount Eden, -0.000
+	neighbourhood_Morrisania, -0.000
+	neighbourhood_Belmont, -0.000
+	neighbourhood_Morris Heights, -0.000
+	private_entrance, 0.000
+	neighbourhood_New Dorp Beach, -0.000
+	neighbourhood_College Point, -0.000
+	neighbourhood_Wakefield, -0.000
+	neighbourhood_Claremont Village, -0.000
+	neighbourhood_Parkchester, -0.000
+	neighbourhood_Belle Harbor, 0.000
+	neighbourhood_Roosevelt Island, 0.000
+	neighbourhood_University Heights, -0.000
+--------- For Model:  XGBoost Model  ---------
+
+-----Training Set ------
+Mean squared error:  0.07980377331797847
+R2:  0.8157405438243254
+
+
+-----Test Set ------
+Mean squared error:  0.11729040549667229
+R2:  0.7328325535518976
+
+
+--------Feature Importance------------
+
+The top 20  most important features are:
+                                    weight
+room_type_Entire home/apt         0.336396
+bathrooms                         0.032001
+neighbourhood_Midtown             0.025008
+neighbourhood_Hell's Kitchen      0.018545
+neighbourhood_East Village        0.015763
+property_type_Other               0.015168
+neighbourhood_Bedford-Stuyvesant  0.014314
+neighbourhood_West Village        0.014031
+neighbourhood_Chelsea             0.013612
+neighbourhood_Lower East Side     0.011874
+neighbourhood_Bushwick            0.011854
+neighbourhood_Upper West Side     0.011682
+neighbourhood_Washington Heights  0.011659
+neighbourhood_SoHo                0.011582
+room_type_Shared room             0.011304
+neighbourhood_Greenwich Village   0.010347
+room_type_Hotel room              0.009697
+neighbourhood_Theater District    0.008575
+neighbourhood_Williamsburg        0.008490
+neighbourhood_Crown Heights       0.007979
+\begin{tabular}{lr}
+\toprule
+{} &    weight \\
+\midrule
+room\_type\_Entire home/apt        &  0.336396 \\
+bathrooms                        &  0.032001 \\
+neighbourhood\_Midtown            &  0.025008 \\
+neighbourhood\_Hell's Kitchen     &  0.018545 \\
+neighbourhood\_East Village       &  0.015763 \\
+property\_type\_Other              &  0.015168 \\
+neighbourhood\_Bedford-Stuyvesant &  0.014314 \\
+neighbourhood\_West Village       &  0.014031 \\
+neighbourhood\_Chelsea            &  0.013612 \\
+neighbourhood\_Lower East Side    &  0.011874 \\
+neighbourhood\_Bushwick           &  0.011854 \\
+neighbourhood\_Upper West Side    &  0.011682 \\
+neighbourhood\_Washington Heights &  0.011659 \\
+neighbourhood\_SoHo               &  0.011582 \\
+room\_type\_Shared room            &  0.011304 \\
+neighbourhood\_Greenwich Village  &  0.010347 \\
+room\_type\_Hotel room             &  0.009697 \\
+neighbourhood\_Theater District   &  0.008575 \\
+neighbourhood\_Williamsburg       &  0.008490 \\
+neighbourhood\_Crown Heights      &  0.007979 \\
+\bottomrule
+\end{tabular}
+
